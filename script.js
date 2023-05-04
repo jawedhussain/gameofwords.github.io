@@ -11,7 +11,7 @@ let btn=document.getElementById('btn')
 let myAudio=document.getElementById('myAudio')
 let body=document.getElementById('body')
 
-let gifSource='./images/image2.gif'
+let gifSource='./rightanswer.gif'
 let gifContainer=document.createElement('div')
 gifContainer.setAttribute('id','fireWork')
 
@@ -375,7 +375,7 @@ let Expel='https://www.shutterstock.com/image-vector/vector-cartoon-stick-figure
 let intialRightScore
 let intialWrongScore
 
-Yell
+
 // for right score
 if(sessionStorage.getItem('rightScore')==0){
     intialRightScore=0
@@ -461,6 +461,7 @@ let ArrayOfImages=[Whisper,Annoy,Yawn,Consent,Plead,Provide,Abstain,Vain,Storm,
     Pair,Quit,Vanish,Wear,Impair,Beverage,Accord,Scarcity,Deficiency,Guilty,Faith,Jelous,Religion,Trust,
     Quarrel,Dispute,Roof,Stretch,Clap,Wander,Pardon,Swear,Prison,Futile,Excruciating,Capture,Expel
 ]
+
 
 
 
